@@ -17,3 +17,6 @@
 4. **Staging**
    - Stage Changes from a Single File : `git add filename`
    - Stage all Changes : `git add -all` or `git add -A`
+5. **Commit**
+   - Commit Staged Changes : `git commit -m "Commit Message Describing Your Changes,"`
+   - Stage all Changes and Commit : `git commit -a -m "Commit Message"`
