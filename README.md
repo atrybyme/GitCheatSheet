@@ -5,7 +5,7 @@
     - `git --version`
 2. **Status**
    - Normal : `git status`
-   - Get Short Summary : \git status --short\
+   - Get Short Summary : `git status --short`
      - `?? : Untracked`
      - `A : Added`
      - `M : Modified`
