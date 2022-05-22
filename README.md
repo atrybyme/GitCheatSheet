@@ -29,3 +29,16 @@
    - Get Help For A specific Command : `git <command> -help`. *Example : *`git commit -help` 
    - Get Help For All Commands : `git help --all`
    - Get Logs : `git log`
+   - Get Status of Current Branch with respect to remote: `git status`
+   - Get difference between current branch and provided  branch : `git diff <branch_name>` 
+### Git and GitHub
+1. **Add Remote**
+   - Add Remote Repo as an origin to your loca git Repo : `git remove add origin <URL>`
+2. **Fetch**
+   - Fetch change history of tracked remote Branch(origin in this case).Repo : `git fetch origin`
+3. **Merge**
+   - Merge Combines Current Branch with Given Branch (origin/main in this case) : `git merge origin/main`
+4. **Pull**
+   - Combine Fetch and Merge. Pull remote repo and merge it with current branch : `git pull origin`
+5. **Push**
+   - Push Local Commited Changes to Remote repo(origin here)/Branch : `git push origin` or `git push origin/<branch_name>`
