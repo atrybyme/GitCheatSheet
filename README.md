@@ -42,3 +42,5 @@
    - Combine Fetch and Merge. Pull remote repo and merge it with current branch : `git pull origin`
 5. **Push**
    - Push Local Commited Changes to Remote repo(origin here)/Branch : `git push origin` or `git push origin/<branch_name>`
+6. **Clone**
+   - Clone a remote Repo to Local, with all its logs and history of files : `git clone <url_of_remote_repo>`
