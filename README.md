@@ -31,7 +31,7 @@
    - Get Logs : `git log`
    - Get Status of Current Branch with respect to remote: `git status`
    - Get difference between current branch and provided  branch : `git diff <branch_name>` 
-### Git and GitHub
+### Git and Remote Repositories
 1. **Add Remote**
    - Add Remote Repo as an origin to your loca git Repo : `git remove add origin <URL>`
 2. **Fetch**
@@ -44,3 +44,9 @@
    - Push Local Commited Changes to Remote repo(origin here)/Branch : `git push origin` or `git push origin/<branch_name>`
 6. **Clone**
    - Clone a remote Repo to Local, with all its logs and history of files : `git clone <url_of_remote_repo>`
+7. **Configure Remote**
+   - Get Information About Remote : `git remote -v`
+     - `fetch` will tell you what url will be used to retrieve change in fetch and pull.
+     - `push` will tell you what url your local changes will be pushed to.
+   - Rename remote from one to another. : `git remote rename <remote1> <remote2>`
+   - Add Remote : `git remote add <remotename> <remoteurl>`
