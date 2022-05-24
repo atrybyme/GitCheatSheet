@@ -30,7 +30,9 @@
    - Get Help For All Commands : `git help --all`
    - Get Logs : `git log`
    - Get Status of Current Branch with respect to remote: `git status`
-   - Get difference between current branch and provided  branch : `git diff <branch_name>` 
+   - Get information about Unstaged Changes : `git diff`
+   - Get information about Staged Uncommited Changes : `git diff --staged` or `git diff --cached`
+   - 
 ### Git and Remote Repositories
 1. **Add Remote**
    - Add Remote Repo as an origin to your loca git Repo : `git remove add origin <URL>`
