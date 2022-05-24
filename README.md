@@ -32,7 +32,9 @@
    - Get Status of Current Branch with respect to remote: `git status`
    - Get information about Unstaged Changes : `git diff`
    - Get information about Staged Uncommited Changes : `git diff --staged` or `git diff --cached`
-   - 
+   - Remove deleted files from working tree and from the index, : `git rm <filename/directory/pattern>`
+     - If we want to delete staged  `-f` flag : `git rm -f <filename/directory/pattern>`
+     - If we want to have file in working tree but remove from tracked file, *ie* same functionality as adding to `.gitignore` : `git rm --cached <file/directory/pattern>`
 ### Git and Remote Repositories
 1. **Add Remote**
    - Add Remote Repo as an origin to your loca git Repo : `git remove add origin <URL>`
