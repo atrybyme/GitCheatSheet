@@ -29,6 +29,14 @@
    - Get Help For A specific Command : `git <command> -help`. *Example : *`git commit -help` 
    - Get Help For All Commands : `git help --all`
    - Get Logs : `git log`
+     - To get information about the change made in eache commit use `-p` tag : `git log -p` or `git log --patch`
+     - Tog get logs about limited number of commits, *eg 2* : `git log -2` 
+     - To get abbreviated stats use `stat` tag : `git log --stat`
+     - To get ASCII graph of branch and merges : `git log -graph`
+     - To get list of modified and created file after commit Operation : `git log --name-only `
+     - To limit the data to certain time period use `since` or `until` tag : `git log since==2.weeks`
+     - To filter commits of specific author : `git log --author="<author name>"`
+     - To filter commit having some `<somestring>` present in commit message : `git log --grep="<someword>"`
    - Get Status of Current Branch with respect to remote: `git status`
    - Get information about Unstaged Changes : `git diff`
    - Get information about Staged Uncommited Changes : `git diff --staged` or `git diff --cached`
