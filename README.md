@@ -37,6 +37,8 @@
      - To limit the data to certain time period use `since` or `until` tag : `git log since==2.weeks`
      - To filter commits of specific author : `git log --author="<author name>"`
      - To filter commit having some `<somestring>` present in commit message : `git log --grep="<someword>"`
+     - Git pickaxe tool, Takes `<string>` as input and shows commit that changed occurances of that `<string>`: `git log -S <string>`
+     - To know Commits that changed a particular file `<file>` : `git log -- <pathtofile>` 
    - Get Status of Current Branch with respect to remote: `git status`
    - Get information about Unstaged Changes : `git diff`
    - Get information about Staged Uncommited Changes : `git diff --staged` or `git diff --cached`
