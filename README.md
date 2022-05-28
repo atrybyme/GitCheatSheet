@@ -20,12 +20,16 @@
 5. **Commit**
    - Commit Staged Changes : `git commit -m "Commit Message Describing Your Changes,"`
    - Stage all Changes and Commit : `git commit -a -m "Commit Message"`
-6. **Branch**
+6. **Undoing Things**
+   - If you miss add some file in previous commit. Then `--amend` tag with `commit`:
+     - After Wrong Commit, Add forgotten file to staging Area : `git add <missed_file>`
+     - Amend the previous Commit to include `<missed_file>` too : `git commit --amend`
+7. **Branch**
    - Create New Branch Based on Current Branch : `git branch <new_branch_name>`
    - Get List of Branches : `git branch`
    - Checkout to Specific Branch : `git checkout <branch_name>`
    - Create new Branch based on Current Branch and Checkout to new Branch : `git checkout -b <new_branch_name>`
-7. **Log And Help**
+8. **Log And Help**
    - Get Help For A specific Command : `git <command> -help`. *Example : *`git commit -help` 
    - Get Help For All Commands : `git help --all`
    - Get Logs : `git log`
