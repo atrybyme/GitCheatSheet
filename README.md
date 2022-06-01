@@ -68,3 +68,6 @@
      - `push` will tell you what url your local changes will be pushed to.
    - Rename remote from one to another. : `git remote rename <remote1> <remote2>`
    - Add Remote : `git remote add <remotename> <remoteurl>`
+8. **UnDo**
+   - To Unstage a staged file : `git reset HEAD <filename>`
+   - To UnModify a Modified File : `git checkout --  <filename>`
